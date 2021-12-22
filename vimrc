@@ -41,16 +41,16 @@ hi Search term=reverse ctermfg=0 ctermbg=3
 hi PmenuSel ctermbg=4
 hi PmenuSbar ctermbg=4
 imap <F2> <C-X><C-O>
-map <F3> :set paste<CR>
-map <F4> :set nopaste<CR>
 map <C-J> m`o<Esc>``j
 map <C-K> m`O<Esc>``k
+map <F3> :tabprevious<CR>
+map <F4> :tabnext<CR>
 vmap <F5> :norm i//<CR>
 vmap <F6> :norm xx<CR>
 "map <F7> :set encoding=euc-kr termencoding=utf-8<CR>
 "map <F8> :set encoding=utf-8 termencoding=utf-8<CR>
-map <F7> :tabprevious<CR>
-map <F8> :tabnext<CR>
+map <F7> :set paste<CR>
+map <F8> :set nopaste<CR>
 vmap <F9> zf
 map <F10> zo
 map <F11> zc
